@@ -13,6 +13,7 @@
 		EEC517FC1DC2FE9800C77F2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC517FA1DC2FE9800C77F2D /* Main.storyboard */; };
 		EEC517FE1DC2FE9800C77F2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC517FD1DC2FE9800C77F2D /* Assets.xcassets */; };
 		EEC518011DC2FE9800C77F2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC517FF1DC2FE9800C77F2D /* LaunchScreen.storyboard */; };
+		EEC5180A1DC3005800C77F2D /* newFile.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC518091DC3005800C77F2D /* newFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		EEC517FD1DC2FE9800C77F2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEC518001DC2FE9800C77F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEC518021DC2FE9800C77F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEC518081DC3005800C77F2D /* newFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = newFile.h; path = ../newFile.h; sourceTree = "<group>"; };
+		EEC518091DC3005800C77F2D /* newFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = newFile.m; path = ../newFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		EEC517F01DC2FE9800C77F2D /* myFirstTest */ = {
 			isa = PBXGroup;
 			children = (
+				EEC518081DC3005800C77F2D /* newFile.h */,
+				EEC518091DC3005800C77F2D /* newFile.m */,
 				EEC517F41DC2FE9800C77F2D /* AppDelegate.h */,
 				EEC517F51DC2FE9800C77F2D /* AppDelegate.m */,
 				EEC517F71DC2FE9800C77F2D /* ViewController.h */,
@@ -152,6 +157,7 @@
 			files = (
 				EEC517F91DC2FE9800C77F2D /* ViewController.m in Sources */,
 				EEC517F61DC2FE9800C77F2D /* AppDelegate.m in Sources */,
+				EEC5180A1DC3005800C77F2D /* newFile.m in Sources */,
 				EEC517F31DC2FE9800C77F2D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
